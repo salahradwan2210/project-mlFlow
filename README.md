@@ -1,61 +1,96 @@
-# Heart Disease Classification with MLflow
+# Model Evaluation Results
 
-This project implements multiple machine learning models to predict heart disease using MLflow for experiment tracking and model management.
+## Individual Model Performance
 
-## Project Overview
+### Random Forest
+- Accuracy: 0.8833
+- Precision: 0.8400
+- Recall: 0.8750
+- F1 Score: 0.8571
 
-The project uses the UCI Heart Disease dataset to train and compare different machine learning models for heart disease prediction. It includes:
-- Multiple model implementations (Random Forest, SVM, KNN, etc.)
-- MLflow tracking for experiment management
-- Model performance comparison and visualization
-- Automated model evaluation
+### Gradient Boosting
+- Accuracy: 0.8000
+- Precision: 0.7308
+- Recall: 0.7917
+- F1 Score: 0.7600
 
-## Dataset
+### SVM (Support Vector Machine)
+- Accuracy: 0.8833
+- Precision: 0.8696
+- Recall: 0.8333
+- F1 Score: 0.8511
 
-The dataset is from the UCI Machine Learning Repository and includes various features related to heart disease diagnosis:
-- 13 clinical features
-- Binary classification target (presence/absence of heart disease)
-- Source: [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+disease)
+### KNN (K-Nearest Neighbors)
+- Accuracy: 0.8333
+- Precision: 0.8182
+- Recall: 0.7500
+- F1 Score: 0.7826
 
-## Models Implemented
+### Logistic Regression
+- Accuracy: 0.8667
+- Precision: 0.8333
+- Recall: 0.8333
+- F1 Score: 0.8333
 
-1. Random Forest Classifier
-2. Gradient Boosting Classifier
-3. Support Vector Machine (SVM)
-4. K-Nearest Neighbors (KNN)
-5. Logistic Regression
+## Comparative Analysis
 
-## Results
+### Performance Metrics Table 
 
-=======
-# Heart Disease Classification with MLflow
+### Best Models by Metric
+- **Accuracy**: SVM (0.8833)
+- **Precision**: SVM (0.8696)
+- **Recall**: Random Forest (0.8750)
+- **F1 Score**: Random Forest (0.8571)
 
-This project implements multiple machine learning models to predict heart disease using MLflow for experiment tracking and model management.
+## Key Findings
 
-## Project Overview
+1. **Top Performing Models**:
+   - SVM and Random Forest showed the best overall performance
+   - Both achieved the highest accuracy (0.8833)
+   - SVM excelled in precision while Random Forest led in recall
 
-The project uses the UCI Heart Disease dataset to train and compare different machine learning models for heart disease prediction. It includes:
-- Multiple model implementations (Random Forest, SVM, KNN, etc.)
-- MLflow tracking for experiment management
-- Model performance comparison and visualization
-- Automated model evaluation
+2. **Model Strengths**:
+   - **SVM**: Best for minimizing false positives (highest precision)
+   - **Random Forest**: Best for minimizing false negatives (highest recall)
+   - **Logistic Regression**: Showed balanced performance across all metrics
 
-## Dataset
+3. **Model Limitations**:
+   - **Gradient Boosting**: Showed lower overall performance
+   - **KNN**: Struggled with recall compared to other models
 
-The dataset is from the UCI Machine Learning Repository and includes various features related to heart disease diagnosis:
-- 13 clinical features
-- Binary classification target (presence/absence of heart disease)
-- Source: [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/heart+disease)
+## Visualization
+![Model Comparison](model_comparison.png)
 
-## Models Implemented
+## MLflow Tracking Notes
+- All models were tracked using MLflow
+- Parameters and metrics were logged for each run
+- Models were saved for future reference and deployment
 
-1. Random Forest Classifier
-2. Gradient Boosting Classifier
-3. Support Vector Machine (SVM)
-4. K-Nearest Neighbors (KNN)
-5. Logistic Regression
+## Technical Details
+- Train-Test Split: 80-20
+- Random State: 42
+- Standardized Features using StandardScaler
+- Binary Classification Task (Heart Disease: Present/Absent)
 
-## Results
+## Model Configurations
 
->>>>>>> 7fcb1da69f226510c27689383feb4bb44f217092
-### Model Performance Comparison 
+### Random Forest
+- n_estimators: 100
+- max_depth: 10
+- random_state: 42
+
+### Gradient Boosting
+- n_estimators: 100
+- max_depth: 5
+- random_state: 42
+
+### SVM
+- kernel: rbf
+- random_state: 42
+
+### KNN
+- n_neighbors: 5
+
+### Logistic Regression
+- default parameters
+- random_state: 42 
