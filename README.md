@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Heart Disease Classification with MLflow
 
 This project implements multiple machine learning models to predict heart disease using MLflow for experiment tracking and model management.
