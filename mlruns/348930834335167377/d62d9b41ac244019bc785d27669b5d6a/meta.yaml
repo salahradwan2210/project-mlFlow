@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Salah_Radwan/Desktop/Ml%20Flow/mlruns/348930834335167377/d62d9b41ac244019bc785d27669b5d6a/artifacts
+end_time: 1736762882246
+entry_point_name: ''
+experiment_id: '348930834335167377'
+lifecycle_stage: active
+run_id: d62d9b41ac244019bc785d27669b5d6a
+run_name: Random Forest
+run_uuid: d62d9b41ac244019bc785d27669b5d6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736762878658
+status: 3
+tags: []
+user_id: Salah_Radwan

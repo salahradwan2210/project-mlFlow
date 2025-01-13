@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Salah_Radwan/Desktop/Ml%20Flow/mlruns/348930834335167377/6f34698570b848d69217d68eb7483493/artifacts
+end_time: 1736762884991
+entry_point_name: ''
+experiment_id: '348930834335167377'
+lifecycle_stage: active
+run_id: 6f34698570b848d69217d68eb7483493
+run_name: Gradient Boosting
+run_uuid: 6f34698570b848d69217d68eb7483493
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736762882249
+status: 3
+tags: []
+user_id: Salah_Radwan

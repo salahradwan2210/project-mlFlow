@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Salah_Radwan/Desktop/Ml%20Flow/mlruns/348930834335167377/10c9cd89431847938190915aee144bbb/artifacts
+end_time: 1736762892268
+entry_point_name: ''
+experiment_id: '348930834335167377'
+lifecycle_stage: active
+run_id: 10c9cd89431847938190915aee144bbb
+run_name: Logistic Regression
+run_uuid: 10c9cd89431847938190915aee144bbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736762889905
+status: 3
+tags: []
+user_id: Salah_Radwan

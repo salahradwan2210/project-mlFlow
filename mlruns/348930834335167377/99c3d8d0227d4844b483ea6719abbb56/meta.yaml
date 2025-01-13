@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Salah_Radwan/Desktop/Ml%20Flow/mlruns/348930834335167377/99c3d8d0227d4844b483ea6719abbb56/artifacts
+end_time: 1736762887461
+entry_point_name: ''
+experiment_id: '348930834335167377'
+lifecycle_stage: active
+run_id: 99c3d8d0227d4844b483ea6719abbb56
+run_name: SVM
+run_uuid: 99c3d8d0227d4844b483ea6719abbb56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736762884994
+status: 3
+tags: []
+user_id: Salah_Radwan
